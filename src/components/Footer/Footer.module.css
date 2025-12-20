@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 255, 255, 0.87);
+    padding: 30px;
+}
+
+.main section p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.main button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b3b3b;
+}
+
+.main button i {
+    font-size: 18px;
+}
+
+@media (max-width: 500px) {
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .main section p {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+}
