@@ -61,7 +61,7 @@
     color: #959595;
 }
 
-.main section article:nth-child(2) div  {
+.main section article:nth-child(2) div {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -71,6 +71,7 @@
 
 
 @media (max-width: 1000px) {
+
     .main section article:nth-child(1),
     .main section article :nth-child(2) {
         gap: 15px;
@@ -97,3 +98,4 @@
         gap: 30px;
     }
 }
+

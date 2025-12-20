@@ -133,3 +133,27 @@
         width: 300px;
     }
 }
+
+@media (max-width: 500px) {
+    .main {
+        margin: 100px 30px;
+    }
+
+    .main div section ul {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .main div section article {
+        align-items: flex-start;
+    }
+
+    .main div section article p {
+        text-align: left;
+    }
+
+    .main div section:nth-child(2) img {
+        width: 250px;
+    }
+
+}
